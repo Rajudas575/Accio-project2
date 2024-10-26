@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Startup Website</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Startup Logo</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#intro">About Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#intro">Login</a></li>
+        </ul>
+    </nav>
+<div class="main">
+    <section id="intro" class="intro">
+        <div class="intro-text">
+            <h1>Welcome to Our Startup</h1>
+            <p>Nulla pharetra aliquam suscipit. Curabitur quis ipsum enim. In ut leo quis turpis euismod condimentum at at arcu. Suspendisse facilisis felis a justo tristique, vel iaculis purus gravida. Curabitur molestie fringilla velit ac porttitor. Maecenas sed metus sem. Suspendisse elementum mauris eu diam facilisis, nec venenatis turpis vehicula. Maecenas suscipit aliquet felis, a bibendum leo. Maecenas sagittis lacus id elit consectetur, eu vehicula ligula pulvinar. Nullam tincidunt semper enim ut vehicula.</p>
+            <button class="cta-button">Login</button>
+        </div>
+        <div class="intro-image">
+            <img src="img/jeff.png" alt="Jeff Bezos">
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" class="input-field" required>
+            <input type="email" placeholder="Your Email" class="input-field" required>
+			<div id="set-wi">
+				<input size="30" type="number" placeholder="Mobile No" class="input-field2" required>
+				<input size="30" type="text" placeholder="Your City" class="input-field2" required>
+			</div>
+			<div class="container">
+				<div class="center">
+				<button type="submit" class="submit-button">Submit Form</button>
+				</div>
+			</div>
+        </form>
+    </section>
+
+    <section id="table" class="table-section">
+        <h2>Data Table</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>SNO</th>
+                    <th> Startup Name</th>
+                    <th>Startup Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>CEO</td>
+                    <td>Amazon</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>CEO</td>
+                    <td>SpaceX</td>
+                </tr>
+				<tr>
+                    <td>3</td>
+                    <td>CEO</td>
+                    <td>SpaceX</td>
+                </tr>
+				<tr>
+                    <td>4</td>
+                    <td>CEO</td>
+                    <td>SpaceX</td>
+                </tr>
+				<tr>
+                    <td>5</td>
+                    <td>CEO</td>
+                    <td>SpaceX</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>00</td>
+                    <td>Footer of Table</td>
+                    <td>End of Table</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
